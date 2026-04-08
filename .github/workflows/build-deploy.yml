@@ -24,7 +24,7 @@ jobs:
           name: octomatch
           path: dist
 
-  deploy:
+  dev:
     name: Deploy Dev
     needs: build
     runs-on: ubuntu-latest
